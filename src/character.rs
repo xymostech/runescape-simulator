@@ -16,7 +16,8 @@ pub struct Character {
 impl Character {
     pub fn after_tutorial_island() -> Character {
         Character {
-            cooking_exp: 30,
+            // one shrimp + one bread
+            cooking_exp: 30 + 40,
             cooking_stats: CookingStats {
                 cooked_shrimp: 1,
                 burnt_shrimp: 0,
